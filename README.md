@@ -1,5 +1,7 @@
--A téma: KTM
+# Téma: KTM
 
--Csapat: Csismaszia Maté, Kiráj Agostone
+## Csapat: 
+- Csizmazia Máté
+- Király Ágoston
 
--A csapat minden egyes tagja megpropalya magabol a maximumot hozni, deshalb ist unsere Webage legjobb. Macprobajuk leutanozni az eredetit. De presze csak naturalba. Ez lesz a leggizdabb veboldal magyarbe.
+### Projekt: A projektben a KTM weboldalát próbáljuk legjobban a saját izlésünkre formálni.
