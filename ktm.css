@@ -1,3 +1,31 @@
 #navHatter {
     background-color: rgb(255, 120, 0);
 }
+
+.szovegKozepen {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+
+.kozep {
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.link{
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    text-transform: uppercase;
+
+
+}
