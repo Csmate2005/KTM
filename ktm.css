@@ -29,3 +29,63 @@
 
 
 }
+
+
+.szovegNarancs{
+    text-decoration: none;
+    color: black;
+}
+
+
+.szovegNarancs:hover{
+    text-decoration: none;
+    color: rgb(255, 120, 0);
+}
+
+
+.szovegNarancs2 {
+    color: white;
+
+
+}
+
+.szovegNarancs2:hover {
+    color: rgb(255, 120, 0);
+    text-decoration: underline;
+}
+
+
+.szovegDoboz{
+    border: solid 1px rgb(255, 120, 0);
+    text-decoration: none;
+    color: white;
+    background-color: rgb(255, 120, 0);
+    font-size: large;
+}
+
+
+
+.szovegDoboz:hover{
+    background-color: transparent;
+    color: rgb(255, 120, 0);
+}
+
+.szovegDoboz2{
+    border: solid 1px white;
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+
+
+
+.szovegDoboz2:hover{
+    background-color: transparent;
+    color: rgb(255, 120, 0);
+    border: solid 1px rgb(255, 120, 0);
+}
+
+
+.kartya:hover{
+    background-color: rgb(238, 238, 238);
+}
