@@ -89,3 +89,13 @@
 .kartya:hover{
     background-color: rgb(238, 238, 238);
 }
+
+
+.csik{
+    border: none;
+    opacity: 1;
+    height: 3px;
+    color:  rgb(255, 120, 0);
+    background-color: rgb(255, 120, 0);
+    width: 30%;
+}
