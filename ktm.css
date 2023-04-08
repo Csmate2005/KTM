@@ -97,5 +97,10 @@
     height: 3px;
     color:  rgb(255, 120, 0);
     background-color: rgb(255, 120, 0);
-    width: 30%;
+    width: 70%;
 }
+
+.youtube-video {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+  }
