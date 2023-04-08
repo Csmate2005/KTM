@@ -49,6 +49,13 @@
 
 }
 
+
+
+.szovegnarancs{
+    color: rgb(255, 120, 0);
+}
+
+
 .szovegNarancs2:hover {
     color: rgb(255, 120, 0);
     text-decoration: underline;
