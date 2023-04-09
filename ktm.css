@@ -111,3 +111,16 @@
     aspect-ratio: 16 / 9;
     width: 100%;
   }
+
+
+.esportLista{
+  list-style: none;
+}
+
+.esportLista .esportListElem::before{
+    content: "•"; /* Replace default bullet with a solid circle */
+    color: rgb(255, 120, 0); /* Change bullet color to red */
+    font-size: 2rem;
+    margin-right: 0.2em;
+    line-height: normal;
+}
