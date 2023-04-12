@@ -8,7 +8,7 @@
 - A projektben a KTM weboldalát próbáljuk legjobban a saját izlésünkre formálni, de megpróbáljuk hogy minél jobban hasonlítson az eredetire.
 
 ### Ki mit csinál?
-- Közös: readme megírása, csv, főmenü, github projekt, power point
+- Közös: readme megírása, CSS, főmenü, github projekt, power point
 - Máté: modell aloldal, hírek aloldal, garancia aloldal, uzletek aloldal
 - Ágoston: racing aloldal, esport és gaming aloldal, jelentkezés aloldal, technologia aloldal
 
