@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <link rel="stylesheet" href="ktm.css">
-    <title>Newsletter</title>
+    <title>Hírlevél</title>
 </head>
 <body>
 
 
-    <nav id="navHatter" class="navbar navbar-expand-lg sticky-top w3-animate-top">
+    <nav id="navHatter" class="navbar navbar-expand-lg sticky-top ">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html"><img class="" src="kepek/KTM-Logo.png" width="60" alt=""></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,7 +59,8 @@
 
       <br>
       <br>
-      <div class="row container mx-auto w3-animate-bottom">
+
+      <div class="row container mx-auto" data-aos="fade-down">
         <div class="col"><hr class="container csik float-end"></div>
           <div class="col">
           <h1 class="fw-bold container text-center">Hírlevél regisztrálás</h1></div>
@@ -68,9 +69,9 @@
 
 
 
-  <h1 class=" text-white text-center fw-bold text-decoration-underline">Jelentkezés</h1>
+  <h1 data-aos="zoom-in" class=" text-white text-center fw-bold text-decoration-underline">Jelentkezés</h1>
   <br>
-  <div class="container  border border-3 p-4 rounded-3 w3-animate-top">
+  <div class="container  border border-3 p-4 rounded-3 " data-aos="zoom-in">
       <div class="mb-3">
       <label for="exampleFormControlInput1" class="form-label text-decoration-underline fw-bold text-black">Név:</label>
       <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Családnév Keresztnév" maxlength="40">
@@ -111,6 +112,11 @@
      document.getElementById("gomb").innerHTML = "Sikeresen feliratkozott ";
    }
    </script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous">
